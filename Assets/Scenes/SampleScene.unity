@@ -440,17 +440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1665885853}
-  - component: {fileID: 1665885852}
-  - component: {fileID: 1665885855}
-  - component: {fileID: 1665885854}
-  - component: {fileID: 1665885857}
   - component: {fileID: 1665885858}
-  - component: {fileID: 1665885860}
-  - component: {fileID: 1665885861}
-  - component: {fileID: 1665885862}
-  - component: {fileID: 1665885863}
-  - component: {fileID: 1665885864}
-  - component: {fileID: 1665885865}
   m_Layer: 0
   m_Name: pipes
   m_TagString: Untagged
@@ -458,28 +448,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1665885852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c2921f328b2a9b49a9ea1e4c010d374, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  spherePrefab: {fileID: 662704544238495154, guid: 1b1fb6a85b1a3214d8263d58bda153d1, type: 3}
-  pipeColors:
-  - {r: 0.83396226, g: 0.13689566, b: 0.13689566, a: 0}
-  - {r: 0.08810956, g: 0.6226415, b: 0.1143372, a: 0}
-  maxPipes: 100
-  pipeLength: 1
-  bendRadius: 0.5
-  growthRate: 1
-  enter: 1
 --- !u!4 &1665885853
 Transform:
   m_ObjectHideFlags: 0
@@ -495,63 +463,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1665885854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15f1843a082228445b6a5a5b50f2c1f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  pipeColors:
-  - {r: 0.89433956, g: 0.032061104, b: 0.032061104, a: 0}
-  - {r: 0.10065503, g: 0.16402306, b: 0.79622644, a: 0}
-  maxPipes: 100
-  pipeLength: 1
-  bendRadius: 0.5
-  growthRate: 1
---- !u!114 &1665885855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1421864e2a7d87f4795743dcd0ca316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  spherePrefab: {fileID: 662704544238495154, guid: 1b1fb6a85b1a3214d8263d58bda153d1, type: 3}
-  pipeColors:
-  - {r: 0.8037735, g: 0.16227125, b: 0.16227125, a: 0}
-  - {r: 0.14100622, g: 0.86415094, b: 0.11576363, a: 0}
-  - {r: 0.11764705, g: 0.20012844, b: 0.8627451, a: 0}
-  - {r: 0.8066785, g: 0.11764705, b: 0.8627451, a: 0}
-  - {r: 0.8627451, g: 0.8578262, b: 0.11764705, a: 0}
-  growthRate: 5
-  Arrayselected: 0
-  minZDistance: 10
-  maxZDistance: 20
-  numberofpipeslimit: 20
---- !u!114 &1665885857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b037ddfcc98959a49b32c5099c3bbab7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1665885858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5ab84ea88d605548bf51283907e38b1, type: 3}
   m_Name: 
@@ -577,98 +488,6 @@ MonoBehaviour:
   minZDistance: 10
   maxZDistance: 20
   numberOfPipesLimit: 20
---- !u!114 &1665885860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6727c4ddabd07804282ec26a38adc88a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
---- !u!114 &1665885861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca2c1332e64930479a1ed6729d13ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
---- !u!114 &1665885862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e7710ff879187408f7765423e1f2ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  spherePrefab: {fileID: 662704544238495154, guid: 1b1fb6a85b1a3214d8263d58bda153d1, type: 3}
-  pipeColors: []
-  growthRate: 1
-  Arrayselected: 0
---- !u!114 &1665885863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd72cf4e9ac6434cb75cb6593983c59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  growthRate: 1
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
---- !u!114 &1665885864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e136130d6cecd646adbc67b06ccaf67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  spherePrefab: {fileID: 662704544238495154, guid: 1b1fb6a85b1a3214d8263d58bda153d1, type: 3}
-  pipeColors: []
-  maxPipes: 100
-  pipeLength: 1
-  bendRadius: 0.5
---- !u!114 &1665885865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665885851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e7710ff879187408f7765423e1f2ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cylinderPrefab: {fileID: 2762291534404787063, guid: b613dde06fb779f4290cf6b17e50ac95, type: 3}
-  spherePrefab: {fileID: 662704544238495154, guid: 1b1fb6a85b1a3214d8263d58bda153d1, type: 3}
-  pipeColors: []
-  growthRate: 1
-  Arrayselected: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
