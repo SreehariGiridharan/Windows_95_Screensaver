@@ -26,7 +26,7 @@ This project aims to replicate the visually captivating pipes screensaver, where
 
 Generating stage
 
-![](/Pipesrandom1.png)
+![](/pipesrandom1.png)
 
 After the growth of numerous pipes
 
