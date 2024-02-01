@@ -22,4 +22,16 @@ This project aims to replicate the visually captivating pipes screensaver, where
   - Select the cloned folder and open the project
   - Play the game mode and immerse yourself in the dynamic and nostalgic experience. 
 
+  ## Pictures
+
+Generating stage
+
+![](/Pipesrandom1.png)
+
+After the growth of numerous pipes
+
+![](/Pipesrandom.png)
+
+
+
  
